@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Challenge-1 Simple Landing Page with Html and CSS</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
-    <!-- Code Here -->
+
+    <header>
+        <nav class="container nav">
+            <h1 class="logo">MyWebsite</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section id="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h2>Build Your First Website</h2>
+                    <p>Learn HTML, CSS, and Git by building a simple landing page.</p>
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About This Project</h2>
+                <p>
+                    This landing page is part of a bootcamp assignment to help you
+                    understand semantic HTML, CSS layout, and Git workflow.
+                </p>
+            </div>
+        </section>
+
+        <!-- FEATURES -->
+        <section id="features" class="section light">
+            <div class="container">
+                <h2>Features</h2>
+
+                <div class="features">
+                    <article class="card">
+                        <i class="fa-solid fa-code icon"></i>
+                        <h3>Semantic HTML</h3>
+                        <p>Structured and meaningful markup.</p>
+                    </article>
+
+                    <article class="card">
+                        <i class="fa-solid fa-paintbrush icon"></i>
+                        <h3>Clean CSS</h3>
+                        <p>Simple and maintainable styling.</p>
+                    </article>
+
+                    <article class="card">
+                        <i class="fa-solid fa-mobile-screen icon"></i>
+                        <h3>Responsive</h3>
+                        <p>Works on all devices.</p>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MyWebsite. All rights reserved.</p>
+    </footer>
+
 </body>
+
 </html>
